@@ -19,7 +19,7 @@
   },
   "name": "todomvc-aspnet-core",
   "description": "TodoMVC AngularJS example running on ASP.NET Core Web API application.",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "main": "Startup.cs",
   "directories": {
     "test": "test"
