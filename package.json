@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "gulp",
+    "prestart": "dotnet restore",
+    "start": "dotnet run"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.7",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.2",
+    "karma": "^1.1.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "phantomjs-prebuilt": "^2.1.7"
+  },
+  "name": "todomvc-aspnet-core",
+  "description": "TodoMVC AngularJS example running on ASP.NET Core Web API application.",
+  "version": "0.9.0",
+  "main": "Startup.cs",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HIROSN/todomvc.git"
+  },
+  "author": "hirosn@live.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HIROSN/todomvc/issues"
+  },
+  "homepage": "https://github.com/HIROSN/todomvc#readme",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-resource": "^1.5.7",
+    "angular-route": "^1.5.7"
+  }
+}

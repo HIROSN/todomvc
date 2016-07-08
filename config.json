@@ -1,0 +1,7 @@
+{
+  "Data": {
+    "UseSqlBackend": "false",
+    "TodoContextConnection": "Server=(localdb)\\ProjectsV12;Database=TodoDb;Trusted_Connection=true;MultipleActiveResultSets=true",
+    "UseSecureConnection": "false"
+  }
+}
